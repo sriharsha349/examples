@@ -1,0 +1,19 @@
+<html ng-app="myApp">
+<head>
+<title>Clock App</title>
+<div ng-controller="TimeCtrl">
+
+<script src="angular.js"></script>
+<script src="app.js"></script>
+	</head>
+	<body>
+		<h1>Clock App<h1>
+			<p>Please enter your name<input ng-model="userName" type="text"></input></p>
+			<p>Your name is {{userName}}
+
+			<p>The current time is {{timeString}}</p>
+			<button ng-click="updateTime()">Update Time</button>
+
+		</body>
+
+</html>
